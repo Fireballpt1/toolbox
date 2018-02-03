@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+   }
+
+   #fundo {
+    background-image: url("./rede_40pc_negativo.png");
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+   }
+   
+
+   #fundo .button {
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+   }
+   #fundo .button:hover {
+    background-color: white;
+    color: black;
+   }
+
+   .painel {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    overflow: hidden;
+    color: gray;
+   }
+   .painel .painel_titulo {
+    color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   .flexcontainer {
+    display: flex;
+    flex-wrap: wrap;   
+   }
+
+
+
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li b {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li b:hover {
+    background-color: black;
+}
+
+
+
+footer {
+  width: 100%;
+  display: flex;
+  margin-top: 28px;
+  height: 70px;
+  background-color: #999;
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+    max-width: 600px;
+    width: 100%;
+    }
+    e {
+        display: inline-block;
+      padding-left: 10%;
+      color: white;
+      font-size: 0.7em;
+      line-height: 70px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      max-width: 600px;
+      text-align: center;
+      padding: 1;
+      
+      }
+
+
+
+  .social {
+      float: left;
+      max-width: 750px;
+      width: 100%;
+    }
+
+     a {
+      float: left;
+      line-height: 70px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      font-weight: bold; 
+      background-color: #222;
+}
+
+.linked {
+  background-color: darkblue;
+  font-size: social-size;
+  width: 100%;
+  width: 20%;
+}
+
+.face {
+  background-color: blue;
+  font-size: social-size;
+  width: social-width;
+  width: 20%;
+}
+
+.tweet {
+  background-color: lightblue;
+  font-size: social-size;
+  width: social-width;
+  width: 20%;
+}
+
+.support {
+  background-color: green;
+  font-size: 0.8em;
+  width: 40%;
+}
